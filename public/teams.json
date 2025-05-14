@@ -1,0 +1,162 @@
+[
+  {
+      "Name":"Gouri Vignesh Jawalkar",
+      "Id":1,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Gauri%20Vignesh.webp"
+  },
+  {
+      "Name":"Harsh Gupta",
+      "Id":2,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Harsh%20Gupta.webp"
+  },
+  {
+      "Name":"Dolly Verma",
+      "Id":3,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Dolly%20Verma.webp"
+  },
+  {
+      "Name":"Abhirami Vinod",
+      "Id":4,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Abhirami%20Vinod.webp"
+  },
+  {
+      "Name":"Abhishek Kumar Tiwari",
+      "Id":5,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Abhishek-Kumar-Tiwari.webp"
+  },
+  {
+      "Name":"Arya Rajendra",
+      "Id":6,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Arya.webp"
+  },
+  {
+      "Name":"Deepak Verma",
+      "Id":7,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Deepak-Verma.webp"
+  },
+  {
+      "Name":"Kaushik Dadi",
+      "Id":8,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Kaushik.webp"
+  },
+  {
+      "Name":"Mudita Srivatsa",
+      "Id":9,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Mudita.webp"
+  },
+  {
+      "Name":"Pavan Kumar",
+      "Id":10,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Pavan%20Kumar.webp"
+  },
+  {
+      "Name":"Prateek Dhaka",
+      "Id":11,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Prateek.webp"
+  },
+  {
+      "Name":"Ratan Raj Ojha",
+      "Id":12,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Ratan%20Raj%20Oja.webp"
+  },
+  {
+      "Name":"Sai Sreekar",
+      "Id":13,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Sai-Sreekar.webp"
+  },
+  {
+      "Name":"Shiladitya De",
+      "Id":14,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Shiladitya%20De.webp"
+  },
+  {
+      "Name":"Ankit Kumar",
+      "Id":15,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Ankit%20Kumar.webp"
+  },
+  {
+      "Name":"Apurva Ninave",
+      "Id":16,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/apurva.webp"
+  },
+  {
+      "Name":"Devichand Budagam",
+      "Id":17,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Devichand-Budagam.webp"
+  },
+  {
+      "Name":"Eeshaan Sethia",
+      "Id":18,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Eeshaan%20Sethia.webp"
+  },
+  {
+      "Name":"Parag Karanjekar",
+      "Id":19,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Parag%20Karanjekar.webp"
+  },
+  {
+      "Name":"Paridhi Chaurasia",
+      "Id":20,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/paridhi.webp"
+  },
+  {
+      "Name":"Priyansh Agrawal",
+      "Id":21,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/priyansh.webp"
+  },
+  {
+      "Name":"Saharsh Agrawal",
+      "Id":22,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/saharsh.webp"
+  },
+  {
+      "Name":"Sandra K Joseph",
+      "Id":23,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Sandra%20K%20Joseph.webp"
+  },
+  {
+      "Name":"Shinoy Sarkar",
+      "Id":24,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/shinoy%20sarkar.webp"
+  },
+  {
+      "Name":"Shriram Dhamdhere",
+      "Id":25,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Shriram%20Dhamdhere.webp"
+  },
+  {
+      "Name":"Swati Shreya",
+      "Id":26,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/swati%20shreya.webp"
+  },
+  {
+      "Name":"Abhinav Gothwal",
+      "Id":27,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Abhinav%20Gothwal.webp"
+  },
+  {
+      "Name":"Akshil Jain",
+      "Id":28,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Akshil%20Jain.webp"
+  },
+  {
+      "Name":"Bibhabasu Debnath",
+      "Id":29,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Bibhabasu%20Debnath.webp"
+  },
+  {
+      "Name":"Bipin Kumar",
+      "Id":30,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Bipin%20Kumar.webp"
+  },
+  {
+      "Name":"Heramb Warke",
+      "Id":31,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Heramb.webp"
+  },
+  {
+      "Name":"Nakul sharma",
+      "Id":32,
+      "Image":"https:\/\/www.spats.co.in\/img\/team\/Nakul%20sharma.webp"
+  }
+]

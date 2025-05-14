@@ -1,0 +1,73 @@
+.headingsch {
+  font-size: 1.3rem; /* Further reduced font size */
+  color: var(--celebration-purple); /* Updated to match the new palette */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 5px var(--shadow-color); /* Enhanced shadow */
+}
+
+.schedule-title {
+  font-size: 2rem; /* Further reduced font size */
+  color: var(--festive-red); /* Festive red for the title */
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-shadow: 2px 2px 5px var(--shadow-color); /* Enhanced shadow */
+  letter-spacing: 0.8px;
+}
+
+@media (max-width: 768px) {
+    .headingsch, .schedule-title {
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+
+.schedbtns .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.schedbtns .btn-primary {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.schedbtns .btn-primary:hover {
+  background-color: var(--primary-blue-dark);
+}
+
+.schedbtns .btn-secondary {
+  background-color: var(--secondary-green);
+  color: white;
+}
+
+.schedbtns .btn-secondary:hover {
+  background-color: var(--secondary-green-dark);
+}
+
+.schedbtns .btn-tertiary {
+  background-color: var(--tertiary-orange);
+  color: white;
+}
+
+.schedbtns .btn-tertiary:hover {
+  background-color: var(--tertiary-orange-dark);
+}
+
+.schedbtns .btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background-color: var(--sparkle-silver);
+  color: black; /* Adjust text color for contrast */
+}

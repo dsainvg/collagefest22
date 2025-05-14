@@ -1,0 +1,117 @@
+.schedule-day {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid var(--golden-glow); /* Golden border for elegance */
+    border-radius: 10px;
+    background-color: var(--midnight-blue); /* Updated background color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Enhanced shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule-day:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+     /* Purple on hover */
+}
+
+.schedule-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--sparkle-silver); /* Light silver for contrast */
+    color: var(--dark-color); /* Dark text for readability */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.schedule-day h2 {
+    display: block;
+    margin: 0;
+    font-size: 1.4rem; /* Further reduced font size */
+    color: var(--primary-color);
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}
+
+.schedule-header-main {
+    font-size: 1.2rem; /* Further reduced font size */
+    color: var(--festive-red); /* Festive red for emphasis */
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}
+
+.schedule-day span {
+    margin: 5px 0;
+    padding: 10px;
+    color: var(--calm-blue); /* Muted blue for calmness */
+    font-size: 1rem; /* Slightly reduced font size */
+    text-align: center;
+    font-style: normal; /* Removed italic for cleaner look */
+}
+
+.schedule-events {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Increased spacing for better separation */
+    background-color: transparent; /* Ensure no background color for the entire list */
+}
+
+.schedule-events li {
+    margin-bottom: 12px;
+    padding: 15px; /* Increased padding for a spacious look */
+    border: 2px solid var(--accent-color); /* Vibrant orange border */
+    border-radius: 8px;
+    background-color: transparent; /* Keep individual list items transparent */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.1rem; /* Slightly larger font for better readability */
+    color: var(--light-color); /* Dark gray for text */
+    position: relative; /* Added for better control of hover effects */
+    overflow: hidden; /* Ensure content stays within bounds */
+}
+
+.schedule-events li:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--firework-orange); /* Bright orange for individual list item hover */
+    opacity: 0.2; /* Subtle overlay effect */
+    z-index: 0; /* Place behind the content */
+    transition: opacity 0.3s ease;
+}
+
+.schedule-events li:hover {
+    background-color: var(--celebration-purple);
+    transform: scale(1.05); /* Slightly larger on hover for individual items */
+    z-index: 1; /* Bring the hovered item to the front */
+}
+
+.schedule-events li strong {
+    color: var(--primary-color); /* Bright blue for emphasis */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px var(--shadow-color);
+}
+
+@media (max-width: 768px) {
+    .schedule-day {
+        padding: 20px; /* Maintain padding for smaller screens */
+        margin-bottom: 15px;
+    }
+
+    .schedule-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .schedule-day h2 {
+        font-size: 1.2rem;
+    }
+
+    .schedule-events li {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        padding: 10px;
+    }
+}

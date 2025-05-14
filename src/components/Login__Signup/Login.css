@@ -1,0 +1,113 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent; /* Make background transparent */
+    border: 1px solid var(--sparkle-silver);
+    border-radius: 8px;
+    box-shadow: none; /* Remove shadow for transparency */
+    font-family: Arial, sans-serif;
+}
+
+.login-heading {
+    text-align: center;
+    font-size: 24px;
+    color: var(--highlight-color); /* Bright pink for the heading */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: transparent; /* Transparent form background */
+}
+
+.login-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--secondary-color); /* Bright blue border */
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: var(--primary-color); /* Softer red-orange on focus */
+    outline: none;
+}
+
+.button {
+    padding: 10px 20px;
+    color: var(--light-color);
+    background-color: var(--primary-color); /* Unified button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: var(--accent-color); /* Unified hover color */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.signup-info,
+.forgot-password {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color); /* Softer white for text */
+    margin-top: 10px;
+}
+
+.signup-link,
+.reset-password-link {
+    color: var(--highlight-color); /* Bright pink for links */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block; /* Ensure link buttons look similar */
+    padding: 10px; /* Match button padding */
+    border-radius: 4px; /* Match button border radius */
+    background: linear-gradient(45deg, var(--vibrant-green), var(--highlight-color)); /* Gradient background */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signup-link:hover,
+.reset-password-link:hover {
+    text-decoration: underline;
+    color: var(--accent-color); /* Bright gold on hover */
+    background: linear-gradient(45deg, orange, var(--accent-color)); /* Reverse gradient with orange tones */
+    transform: translateY(-3px); /* Match button hover effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Match button shadow */
+}
+
+.signup-link-container,
+.reset-password-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .login-heading {
+        font-size: 20px;
+    }
+
+    .login-input, .button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .signup-info, .forgot-password {
+        font-size: 12px;
+    }
+}

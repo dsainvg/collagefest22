@@ -1,0 +1,83 @@
+.HomeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: inherit;
+}
+.HomeContent h1 {
+    padding-top: 2rem; /* Add padding to the top */
+    font-size: 2.5rem;
+    color: var(--highlight-color); /* Use highlight color for emphasis */
+    margin: 2rem;
+}
+
+.HomeContent p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-align: center;
+    margin: 2rem;
+    line-height: 1.6;
+}
+
+.HomeContent .details {
+    width: 80%;
+    max-width: 800px; /* Limit the width for better readability */
+    background-color: inherit;
+    padding: 2rem; /* Increase padding for better spacing */
+    margin-top: 1.5rem; /* Add margin to separate from other content */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left for better structure */
+}
+
+.HomeContent .details h2 {
+    font-size: 1.8rem;
+    color: var(--accent-color); /* Use accent color for headings */
+    margin-bottom: 1rem;
+}
+
+.HomeContent .details ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.HomeContent .details ul li {
+    font-size: 1.1rem;
+    color: var(--primary-color); /* Use primary color for list items */
+    margin-bottom: 0.5rem;
+}
+
+.HomeContent .details p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .HomeContent {
+        padding: 10px;
+    }
+
+    .HomeContent h1 {
+        font-size: 2rem;
+    }
+
+    .HomeContent p {
+        font-size: 1rem;
+    }
+
+    .HomeContent .details {
+        padding: 1rem;
+    }
+
+    .HomeContent .details h2 {
+        font-size: 1.5rem;
+    }
+
+    .HomeContent .details ul li {
+        font-size: 1rem;
+    }
+}
